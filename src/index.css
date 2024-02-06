@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lemon&family=Monoton&family=Oleo+Script&family=Pacifico&family=Rubik+Doodle+Shadow&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #060417;
+}
+
+
+html {
+  font-size: 85%;
+  overflow-x: hidden;
+}

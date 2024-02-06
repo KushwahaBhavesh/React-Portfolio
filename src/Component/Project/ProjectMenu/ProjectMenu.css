@@ -1,0 +1,28 @@
+.project-menu-list {
+  border: 2px solid #6751b9;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(22, 17, 47, 0.459);
+  transition: all 0.3s ease-in-out;
+  padding: 5px 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.project-menu-list.active{
+  background: linear-gradient(100deg, #6751b9 0%, #7002ff 100%);
+}
+
+.project-menu-list span {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+
+
+@media(max-width:487px){
+  .project-menu-list{
+    padding: 2px 10px;
+  }
+}

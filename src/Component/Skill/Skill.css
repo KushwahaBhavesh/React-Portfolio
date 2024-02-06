@@ -1,0 +1,146 @@
+.skill-container {
+  position: relative;
+  padding-top: 2rem;
+
+}
+.skill-container::before {
+  content: "";
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+  background: #7c66e3;
+  position: absolute;
+  right: 15px;
+  top: 250px;
+  z-index: -1;
+  filter: blur(200px);
+}
+
+.skill-container::before {
+  top: 0;
+  right: 35rem;
+}
+
+.skill-container h2 {
+  margin: 5rem 0 1rem 2rem;
+  font-family: "Lemon", sans-serif;
+  font-size: 1.5rem;
+
+}
+
+
+.skill-container h2:hover::after {
+  width: 300px;
+}
+.skill-container h2:hover::before {
+  opacity: 1;
+  left: 25%;
+}
+
+.skill-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
+.skill {
+  flex: 1;
+  display: grid;
+  margin: 15px;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.skill-info {
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  .skill-container {
+    margin: 0 60px;
+  }
+  .skill-container h2 {
+    font-size: 1.5rem;
+  }
+  .skill-container h2::after {
+    top: 32px;
+  }
+
+  .skill-container h2::before {
+    top: 27px;
+  }
+
+  .skill-container h2:hover::after {
+    width: 265px;
+    top: 32px;
+  }
+  .skill-container h2:hover::before {
+    opacity: 1;
+    left: 31%;
+    top: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-container {
+    margin: 50px 25px 0 25px;
+  }
+  .skill-container h2 {
+    font-size: 1rem;
+  }
+  .skill-container h2:hover::after {
+    width: 180px;
+    top: 22px;
+    left: 1.2rem;
+  }
+  .skill-container h2:hover::before {
+    left: 27%;
+    top: 16px;
+  }
+  .skill {
+    grid-gap: 1.8rem;
+  }
+}
+
+@media (max-width: 487px) {
+  .skill-container {
+    margin: 50px 20px 0 20px;
+  }
+  .skill-container h2:hover::before {
+    left: 50%;
+    top: 16px;
+  }
+
+  .skill-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    padding-top: 15px;
+  }
+
+  .skill {
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 384px) {
+  .skill-container {
+    margin: 50px 15px 0 15px;
+  }
+  .skill-container h2:hover::before {
+    left: 55%;
+    top: 16px;
+  }
+  .skill {
+    grid-gap: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .skill-container {
+    margin: 50px 10px 0 10px;
+  }
+  .skill-container h2:hover::before {
+    left: 64%;
+    top: 16px;
+  }
+}

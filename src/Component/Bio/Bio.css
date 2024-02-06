@@ -1,0 +1,96 @@
+.bio-section {
+  padding-top: 5rem;
+  
+}
+.bio-section h2 {
+margin: 2.5rem;
+  font-family: "Lemon", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.bio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.bio-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-img img {
+  height: 350px;
+}
+
+.bio-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.bio-info p {
+  font-family: "Lemon", sans-serif;
+}
+
+.bio-info button {
+  padding: 0.6rem;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to right, #e100ff, #02f7ff);
+}
+.bio-info a {
+  font-family: "Lemon", serif;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media(max-width:1024px){
+  .bio-container{
+    margin: 0 60px;
+  }
+  .bio-info button{
+    width: auto;
+  }
+}
+
+@media (max-width: 768px){
+  .bio-container{
+    margin: 0 50px;
+    gap: 2rem;
+  }
+  .bio-info p{
+    font-size: 0.85rem;
+  }
+
+}
+
+@media (max-width: 487px){
+.bio-container{
+  grid-template-columns: auto;
+  grid-template-rows: repeat(1, 1fr);
+}
+}
+@media (max-width: 384px){
+  .bio-container{
+    margin: 0 25px;
+  }
+.bio-img img{
+  height: 300px;
+}
+}
+
+@media (max-width: 320px){
+  .bio-container{
+    margin: 0 5px;
+  }
+
+}

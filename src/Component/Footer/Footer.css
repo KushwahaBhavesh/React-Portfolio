@@ -1,0 +1,253 @@
+.footer-container {
+  background: rgba(77, 19, 153, 0.5);
+  margin-top: 5rem;
+}
+.top-footer {
+  background: #fff;
+  position: absolute;
+  display: flex;
+  width: 40%;
+  margin: -40px 30%;
+  justify-content: space-around;
+  padding: 1.5rem 1rem;
+  align-items: center;
+  border-radius: 5px;
+}
+.top-footer-info h2,
+.top-footer-info p {
+  color: #000;
+  font-family: "Lemon", sans-serif;
+  font-weight: 400;
+}
+
+.top-footer-btn button {
+  padding: 8px;
+  border: none;
+  background: #6751b9;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Lemon", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.center-Footer {
+  padding: 7rem 8rem 2rem 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.about-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.about-footer h2 {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.footer-links h2 {
+  font-family: "Lemon", sans-serif;
+  font-weight: 400;
+}
+
+.footer-links ul li {
+  list-style: none;
+}
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.address-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.address-footer h2 {
+  font-family: "Lemon", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+address {
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.footer-credit p {
+  font-weight: bolder;
+}
+
+
+@media(max-width:1024px){
+  .about-footer h2{
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 768px) {
+  .center-Footer {
+    padding: 4rem 3rem 1rem 3rem;
+  }
+  .top-footer {
+    width: 60%;
+    margin: -40px 20%;
+  }
+
+  .about-footer h2 {
+    font-family: "Bungee Shade", sans-serif;
+    line-height: 1.2;
+  }
+  .address-footer h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 487px) {
+  .center-Footer {
+    padding: 4rem 0.2rem 1rem 0.2rem;
+  }
+
+  .top-footer {
+    width: 70%;
+    margin: -40px 15%;
+  }
+  .top-footer h2 {
+    font-size: 1rem;
+  }
+  .about-footer p {
+    font-size: 0.9rem;
+  }
+  .social-icons ion-icon {
+    font-size: 1.5rem;
+  }
+  .footer-links {
+    padding: 0px;
+  }
+  .address-footer {
+    padding: 0px;
+  }
+
+  .address-footer h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .top-footer h2 {
+    font-size: 0.8rem;
+  }
+  .top-footer p {
+    font-size: 0.7rem;
+  }
+  .top-footer-btn button {
+    font-size: 0.8rem;
+  }
+  .center-Footer {
+    margin: 15px;
+  }
+
+  .center-Footer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .about-footer {
+    padding: 0px;
+  }
+  .footer-links {
+    align-items: flex-start;
+  }
+  .address-footer {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .address-footer address {
+    padding: 0;
+  }
+
+  .footer-credit p{
+    margin: 0px 25px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 384px) {
+  .top-footer h2 {
+    font-size: 0.8rem;
+  }
+  .top-footer p {
+    font-size: 0.7rem;
+  }
+  .top-footer-btn button {
+    font-size: 0.8rem;
+  }
+  .center-Footer {
+    margin:30px 15px 15px 15px;
+  }
+
+  .center-Footer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .about-footer {
+    padding: 0px;
+  }
+  .footer-links {
+    align-items: flex-start;
+  }
+  .address-footer {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .address-footer address {
+    padding: 0;
+  }
+}
+
+@media(max-width:320px){
+ .top-footer h2{
+font-size: 0.6rem;
+ }
+ .top-footer p{
+  font-size: 0.5rem;
+ }
+ .top-footer-btn button{
+font-size: 8px;
+ }
+  .about-footer h2{
+font-size: 1.5rem;
+  }
+}
