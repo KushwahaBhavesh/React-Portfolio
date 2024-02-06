@@ -9,7 +9,7 @@ import Bio from './Component/Bio/Bio'
 import Contact from './Component/contact/Contact'
 import Footer from './Component/Footer/Footer'
 import WorkExperience from './Component/WorkExperience/WorkExperience'
-import { BrowserRouter } from 'react-router-dom'
+
 
 
 function App() {
