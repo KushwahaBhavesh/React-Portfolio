@@ -10,7 +10,6 @@ const Skill = () => {
   const [SelectSkill, SetSelectSkill] = useState(SkillsData[0]);
   const SelectSkillHandler = (data) => {
     SetSelectSkill(data)
-    console.log(data.title);
   }
 
 
@@ -23,7 +22,7 @@ const Skill = () => {
 
         <div className='skill'>
           {SkillsData.map((item, index) =>
-            <Fade direction='left' delay={index * 750} cascade={false} triggerOnce={true} duration={2000} damping={0.5} key={index}>
+            <Fade direction='left' delay={index * 750} triggerOnce={true} duration={2000} damping={0.5} key={index}>
               <SkillCard
                 key={index}
                 title={item.title}

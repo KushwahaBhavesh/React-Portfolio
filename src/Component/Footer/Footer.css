@@ -25,10 +25,13 @@
   border: none;
   background: #6751b9;
   border-radius: 5px;
-  color: #fff;
-  font-family: "Lemon", sans-serif;
-  font-weight: 400;
   cursor: pointer;
+}
+.top-footer button .get-started{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Lemon", sans-serif;
 }
 
 .center-Footer {
@@ -47,6 +50,10 @@
 .about-footer h2 {
   font-family: "Bungee Shade", sans-serif;
   font-size: 1.8rem;
+}
+
+.about-footer .social-icons-content{
+  flex-direction: row;
 }
 
 .footer-links {

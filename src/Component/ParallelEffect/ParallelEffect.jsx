@@ -1,6 +1,7 @@
 import React from 'react'
 import './ParallelEffect.css'
 import {Zoom } from 'react-awesome-reveal'
+import { HashLink } from 'react-router-hash-link'
 
 const ParallelEffect = () => {
   return <>
@@ -14,10 +15,11 @@ const ParallelEffect = () => {
             evolving skills through my portfolio website. My journey in web development is marked by a
             commitment to
             delivering simple, user-friendly designs and gradually expanding my technical expertise.</p>
-          <button> <a className="btn">Hire Me</a></button>
+          <button> <HashLink to="#contact" className="btn">Hire Me</HashLink></button>
         </div>
       </Zoom>
     </section>
+    
   </>
 }
 

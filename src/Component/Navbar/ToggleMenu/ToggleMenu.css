@@ -14,13 +14,14 @@
 }
 
 .mobile-menu-container {
-  width: 50vw;
+  width: 40vw;
   height: 100vh;
   background-color: rgba(64, 15, 123, 1);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+ 
 }
 
 .mobile-menu.active {
@@ -32,14 +33,15 @@
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   padding: 15px;
-  justify-content: center;
+  text-align: center;
 }
 
 .mobile-menu-container ul {
   display: flex;
+  margin-top: 30%;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 60%;
   gap: 2rem;
   list-style: none;
@@ -80,7 +82,7 @@
 
 @media (max-width: 320px) {
   .mobile-menu-container .logo {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .mobile-menu-container ul {
     font-size: 0.8rem;

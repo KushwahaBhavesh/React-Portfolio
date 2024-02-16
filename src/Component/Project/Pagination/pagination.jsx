@@ -1,19 +1,20 @@
 import React from 'react'
 import './pagination.css'
 
-const pagination = ({ totalItems, onPageChange, itemsPerPage }) => {
+const pagination = ({ totalItems, onPageChange, itemsPerPage,currentPage,setCurrentPage}) => {
   const totalPages = Math.ceil(totalItems / itemsPerPage)
+
   const handlePageChange = (newPage) => {
     onPageChange(newPage);
   }
-
   const generatePageNumbers = () => {
     const pageNumber = [];
+    
     for (let i = 1; i <= totalPages; i++) {
       pageNumber.push(
         <li
           key={i}
-          className={`pagination-item`}
+          className={`pagination-item ${currentPage === i ? "active" :""}`}
           onClick={() => handlePageChange(i)}
         >
           {i}

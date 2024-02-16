@@ -1,7 +1,7 @@
 import React from 'react'
 import './Bio.css'
 import profile from '../../assets/img/profile.png'
-import { Fade, Slide } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 
 const Bio = () => {
   return <>
@@ -12,7 +12,7 @@ const Bio = () => {
       <div className='bio-container'>
         <Fade direction='left' duration={2000} triggerOnce={true}>
           <div className='bio-img'>
-            <img src={profile} alt='' />
+            <img src={profile} alt='profile' />
           </div>
         </Fade>
         <Fade direction='right' duration={2000} triggerOnce={true}>

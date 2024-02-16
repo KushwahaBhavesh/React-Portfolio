@@ -1,7 +1,8 @@
 import React from 'react'
 import './modal.css'
 import { AiFillCloseCircle } from "react-icons/ai";
-import {  Slide } from 'react-awesome-reveal';
+import {  Zoom } from 'react-awesome-reveal';
+
 
 const modal = ({ open, onClose, ProjectDetails,  }) => {
   if (!open) return null
@@ -9,10 +10,10 @@ const modal = ({ open, onClose, ProjectDetails,  }) => {
   console.log(ProjectDetails);
   return <>
     <div className='overlay'>
-    <Slide direction='right' style={{width:'100vw',height:'100vh'}} duration={1500} triggerOnce={true}> 
+    <Zoom style={{width:'100vw',height:'100vh'}} duration={1000} triggerOnce={true}> 
       <div className='modal-container'>
         <div className='left-content'>
-          <img src={ProjectDetails.image} />
+          <img src={ProjectDetails.image} alt={ProjectDetails.name} />
           <h2>{ProjectDetails.name}</h2>
           <p>{ProjectDetails.type}</p>
         </div>
@@ -22,7 +23,7 @@ const modal = ({ open, onClose, ProjectDetails,  }) => {
           <a href={ProjectDetails.link}><h3>View: Source Code</h3></a>
         </div>
       </div>
-      </Slide>
+      </Zoom>
     </div>
   </>
 }

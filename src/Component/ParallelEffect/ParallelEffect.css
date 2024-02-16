@@ -35,7 +35,7 @@
 }
 
 .section-web .data-container p {
-  text-align: justify;
+  text-align: center;
   font-size: 1.2rem;
   font-family: "yatra one", sans-serif;
   line-height: 1.4;
@@ -55,15 +55,22 @@
   width: auto;
   border-radius: 5px;
   cursor: pointer;
-  border: none;
+  border: 2px solid #fff;
   font-size: 1.2rem;
   font-weight: 400;
-  color: #fff;
-  background: linear-gradient(to right, #e100ff, #02f7ff);
+  background: transparent;
 }
 
-.data-container button a {
+.data-container .btn{
   font-family: "Lemon", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.data-container button:hover{
+  background: linear-gradient(to right, #e100ff, #02f7ff);  
+
 }
 
 @media (max-width: 768px) {

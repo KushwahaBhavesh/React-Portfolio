@@ -9,26 +9,27 @@ import Bio from './Component/Bio/Bio'
 import Contact from './Component/contact/Contact'
 import Footer from './Component/Footer/Footer'
 import WorkExperience from './Component/WorkExperience/WorkExperience'
+import SocialMedial from './Component/Social-media/SocialMedial'
 
 
 
 function App() {
   return <>
-    
-      <Navbar />
-      <Scrollup />
-      <div className='container'>
+    <Navbar />
+    <Scrollup />
 
-        <Hero />
-        <Bio />
-        <Skill />
-        <WorkExperience />
-        <Project />
-      </div>
-      <ParallelEffect />
-      <Contact />
-      <Footer />
-    
+    <div className='container'>
+      <SocialMedial />
+      <Hero />
+
+      <Bio />
+      <Skill />
+      <WorkExperience />
+      <Project />
+    </div>
+    <ParallelEffect />
+    <Contact />
+    <Footer />
   </>
 }
 

@@ -5,25 +5,25 @@ import { Fade } from 'react-awesome-reveal'
 const Form = () => {
   return <>
    <Fade duration={2000} direction='right'  triggerOnce={true}>
-    <form method='Post'>
+    <form method='Post' action="https://formspree.io/f/xnqepowe">
       <div className='name-container'>
-        <input type='text' name='first-Name' placeholder='First Name' />
-        <input type='text' name='last-Name' placeholder='last Name' />
+        <input type='text' name='first-Name' id='first-name' placeholder='First Name' />
+        <input type='text' name='last-Name' id='last-name' placeholder='last Name' />
       </div>
       <div>
-        <input type='email' name='email' placeholder='Email' />
+        <input type='email' name='email' id='email' placeholder='Email' />
       </div>
       <div >
-        <input type='tel' name='phoneNo' placeholder='Phone No' />
+        <input type='tel' name='phoneNo' id='phoneNo' placeholder='Phone No' />
       </div>
       <div>
-        <input type='text' name='subject' placeholder='Subject' />
+        <input type='text' name='subject' id='subject' placeholder='Subject' />
       </div>
       <div>
-        <textarea rows={8} placeholder='Description' />
+        <textarea rows={8} placeholder='Description' name='description' id='description'/>
       </div>
       <div className='send-btn'>
-        <button >send</button>
+        <input type='submit' value="send message" className='form-btn' />
       </div>
     </form>
     </Fade>

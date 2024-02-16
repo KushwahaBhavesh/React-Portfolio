@@ -18,13 +18,9 @@ const Project = () => {
 
   // handling pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 6;
 
-  
-
-  const TotalProject = projectData.length
-  const totalPages = Math.ceil(TotalProject/itemsPerPage);
-
+  const TotalProject = projectData.length;
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
@@ -40,8 +36,8 @@ const Project = () => {
 
   return <>
     <section className='project-container' id="project">
-    <Fade duration={2000} direction='down' triggerOnce={true}>
-      <h2>Latest Work</h2>
+      <Fade duration={2000} direction='down' triggerOnce={true}>
+        <h2>Latest Work</h2>
       </Fade>
       <div className='project-content'>
         <div className='project-menu'>
@@ -51,7 +47,13 @@ const Project = () => {
           <ProjectCard key={filteredProjectData.name} projectData={filteredProjectData} projects={projectData} />
         </div>
       </div>
-      <Pagination totalItems={TotalProject} itemsPerPage={itemsPerPage} onPageChange={handlePageChange} />
+      <Pagination
+        totalItems={TotalProject}
+        itemsPerPage={itemsPerPage}
+        onPageChange={handlePageChange}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </section>
 
   </>

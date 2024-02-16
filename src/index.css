@@ -6,9 +6,15 @@
   box-sizing: border-box;
 }
 
+::selection{
+  color: red;
+
+}
+
 body {
   color: #fff;
   background-color: #060417;
+  overflow-x: hidden;
 }
 
 

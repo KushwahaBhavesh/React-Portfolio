@@ -7,10 +7,12 @@
   padding: 5px 15px;
   position: relative;
   cursor: pointer;
+  box-shadow: 0 0 15px 2px #6751b9;
 }
 
 .project-menu-list.active{
   background: linear-gradient(100deg, #6751b9 0%, #7002ff 100%);
+  margin-top:-15px; 
 }
 
 .project-menu-list span {

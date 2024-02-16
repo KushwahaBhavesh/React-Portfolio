@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './NotFound.css'
+import { HashLink } from 'react-router-hash-link'
+
 
 const NotFound = () => {
   return <>
@@ -10,7 +12,7 @@ const NotFound = () => {
         <h1>404</h1>
         <span>oops! Page not Found</span>
         <p>sorry, the page you're looking, that does'nt exist. </p>
-        <a>Return Home</a>
+        <HashLink to="#home">Return Home</HashLink>
       </div>
     </div>
   </>

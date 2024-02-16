@@ -24,12 +24,13 @@ textarea {
   font-size: 1.2rem;
   
 }
-.send-btn button {
+.send-btn .form-btn {
+  cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: none;
   font-size: 1.2rem;
-  width: auto;
+  width: fit-content;
   color: #fff;
   font-family: "Lemon", sans-serif;
   font-weight: 400;

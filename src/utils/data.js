@@ -3,15 +3,15 @@ export const SkillsData = [{
   icon: "src/assets/img/frontend.png",
   Skills: [
     { skill: "HTML5", Percentage: "90%" },
-    { skill: "CSS3", Percentage: "70%", },
-    { skill: "JavaScript", Percentage: "70%" },
-   
+    { skill: "CSS3", Percentage: "70%"  },
+    { skill: "JavaScript", Percentage: "70%"  },
+
   ]
 }, {
   title: "Back-End",
   icon: "/src/assets/img/backend.png",
   Skills: [
-    { skill: "Github", Percentage: "80%" }
+    { skill: "Node js", Percentage: "0%" }
   ]
 }, {
   title: "Tools",
@@ -24,8 +24,8 @@ export const SkillsData = [{
   title: "Soft-Skill",
   icon: "/src/assets/img/soft-skill.png",
   Skills: [
-    { skill: "Github", Percentage: "80%" }
+    { skill: "Github", Percentage: "80%", }
   ]
-},
+}
 ]
 
