@@ -1,7 +1,7 @@
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useState  } from 'react'
 import { SkillsData } from '../../utils/data'
 import SkillCard from './SkillCard/SkillCard.jsx'
-import './skill.css'
+import './Skill.css'
 import Cardinfo from './CardInfo/Cardinfo.jsx'
 import { Fade } from 'react-awesome-reveal'
 
