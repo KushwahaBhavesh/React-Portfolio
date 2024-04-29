@@ -18,7 +18,11 @@ body {
 }
 
 
-html {
-  font-size: 85%;
-  overflow-x: hidden;
-}
+  html {
+    font-size: 85%;
+    overflow-x: hidden;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+  }

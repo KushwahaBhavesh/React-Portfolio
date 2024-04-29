@@ -4,7 +4,8 @@
   color: #fff;
   border: 2px solid #6751b9;
   border-radius: 10px;
-  position: relative;box-shadow: 0px 0px 18px 0.2px #6751b9;
+  position: relative;
+  box-shadow: 0px 0px 18px 0.2px #6751b9;
 }
 
 .card:nth-child(even) {
@@ -94,6 +95,13 @@
 @media (max-width: 487px) {
   .card {
     height: auto;
+    width: 100%;
+  }
+  .card-detail{
+    padding: 1.5rem;
+  }
+  .card:nth-child(even) {
+    margin-left: 0;
   }
   .industry-location {
     margin-top: 15px;
@@ -109,16 +117,8 @@
   .description {
     margin-top: 15px;
   }
-  .card:nth-child(even):after {
-    height: 45rem;
-  }
   .card::before {
-    right: 102%;
-    top: 50%;
-    border: 3px solid #6751b9;
-  }
-  .card:nth-child(odd)::before {
-    right: -11%;
+    display: none;
   }
 }
 @media (max-width: 384px) {
@@ -142,12 +142,8 @@
   }
 }
 @media (max-width: 320px) {
-  .card{
+  .card {
     width: auto;
     margin-top: 15px;
   }
-  .card::before {
-    display: none;
-  }
-
 }

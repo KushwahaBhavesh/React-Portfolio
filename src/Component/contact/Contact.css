@@ -19,23 +19,13 @@
   font-family: "Lemon", sans-serif;
   margin: 3rem 0;
 }
-.contact-container {
-  display: grid;
-  grid-template-columns: minmax(min-content, 55%) minmax(200px, 35%);
-}
-
-.map-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
- 
+
 @media (max-width: 1204px) {
   .section-contact {
     margin: 0 60px;
@@ -86,7 +76,6 @@
   .map-container iframe {
     width: auto;
   }
-
 
   .section-contact::before {
     width: 20rem;

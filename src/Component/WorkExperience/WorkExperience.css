@@ -31,8 +31,10 @@
 }
 @media (max-width: 487px){
   .card-container{
-    padding: 0rem;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
   }
   .work-section {
     padding: 5rem 0rem 0 0rem;

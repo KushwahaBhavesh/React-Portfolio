@@ -1,9 +1,10 @@
-export const  projectData = [{
+export const projectData = [{
   image: 'src/assets/img/project/Portfolio.png',
   name: 'Portfolio',
   type: 'website',
   description: 'The Portfolio Website Redesign project aims to revamp and enhance an individuals online portfolio, showcasing their skills, work, and achievements. A well-designed and user-friendly portfolio website serves as a powerful tool for personal branding, professional networking, and career advancement.',
-  link: 'https://github.com/KushwahaBhavesh/portfolio'
+  link: 'https://github.com/KushwahaBhavesh/portfolio',
+  live: 'https://kushwahabhavesh.netlify.app/'
 }, {
   image: 'src/assets/img/project/fitnessclub.png',
   name: 'Fitness Club Management',

@@ -62,22 +62,27 @@
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
-}
-.right-content a {
+ }
+
+ .modal-btns{
   position: fixed;
   bottom: 15px;
   right: 15px;
   text-decoration: none;
   display: flex;
-  justify-content: end;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+ 
 }
-.right-content a h3 {
+
+.modal-btns a{
   background: #6751b9;
   padding: 8px 10px;
   width: fit-content;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 5px; 
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {

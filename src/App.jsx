@@ -13,6 +13,7 @@ import SocialMedial from './Component/Social-media/SocialMedial'
 
 
 
+
 function App() {
   return <>
     <Navbar />
