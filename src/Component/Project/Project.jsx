@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Project.css'
-import { projectData } from '../../utils/projectData'
+import { projectData } from '../utils/projectData'
 import ProjectMenu from './ProjectMenu/ProjectMenu'
 import ProjectCard from './ProjectCard/ProjectCard'
 import Pagination from './Pagination/pagination'

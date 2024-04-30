@@ -1,6 +1,6 @@
 import React from 'react'
 import './WorkExperience.css'
-import { workData } from '../../utils/workData.js'
+import { workData } from '../utils/workData.js'
 import ExperienceCard from './ExperienceCard/ExperienceCard'
 import { Fade } from 'react-awesome-reveal'
 
