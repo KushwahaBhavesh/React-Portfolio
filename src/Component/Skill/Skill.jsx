@@ -22,7 +22,7 @@ const Skill = () => {
 
         <div className='skill'>
           {SkillsData.map((item, index) =>
-            <Fade direction='left' delay={index * 750} triggerOnce={true} duration={2000} damping={0.5} key={index}>
+            <Fade direction='center' delay={index * 150} triggerOnce={true} duration={2000} damping={0.5} key={index}>
               <SkillCard
                 key={index}
                 title={item.title}

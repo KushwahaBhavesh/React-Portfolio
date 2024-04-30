@@ -1,10 +1,10 @@
 import React from 'react'
 import './CardInfo.css'
-import { Fade } from 'react-awesome-reveal'
+import { Zoom } from 'react-awesome-reveal'
 
 const Cardinfo = ({ heading, SkillsInfo }) => {
   return <>
-  <Fade style={{width:"100%"}} direction='right' duration={2000} delay={2000} triggerOnce={true}>
+  <Zoom style={{width:"100%"}} direction='center' duration={2000}  triggerOnce={true}>
     <div className='skill-card-info'>
       <h3>{heading}</h3>
     <div className='skill-card-content'>
@@ -27,7 +27,7 @@ const Cardinfo = ({ heading, SkillsInfo }) => {
 
     </div >
     </div>
-    </Fade>
+    </Zoom>
   </>
 }
 
