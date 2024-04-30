@@ -1,6 +1,8 @@
+import image from '../assets/img/frontend.png'
+
 export const SkillsData = [{
   title: "Front-End",
-  icon: "./src/assets/img/frontend.png",
+  icon: "../assets/img/frontend.png",
   Skills: [
     { skill: "HTML5", Percentage: "90%" },
     { skill: "CSS3", Percentage: "70%"  },
@@ -10,7 +12,7 @@ export const SkillsData = [{
   ]
 }, {
   title: "Back-End",
-  icon: "./src/assets/img/backend.png",
+  icon: "image",
   Skills: [
     { skill: "Node js", Percentage: "45%" },
     { skill: "Express", Percentage: "70%" },
