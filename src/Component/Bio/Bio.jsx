@@ -1,6 +1,6 @@
 import React from 'react'
 import './Bio.css'
-import profile from '../../assets/img/profile.png'
+import profile from '/assets/img/profile.png'
 import { Fade } from 'react-awesome-reveal'
 
 const Bio = () => {

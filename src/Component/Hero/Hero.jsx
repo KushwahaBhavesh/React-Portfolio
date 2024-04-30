@@ -1,12 +1,12 @@
 import './Hero.css'
-import ReactIcon from "../../assets/img/react-icon.png"
-import Profile from "../../assets/img/profile.png"
-import Html from "../../assets/img/html-icon.png"
-import Css from "../../assets/img/css-icon.png"
-import Javascript from "../../assets/img/javascript-icon.png"
+import ReactIcon from "/assets/img/react-icon.png"
+import Profile from "/assets/img/profile.png"
+import Html from "/assets/img/html-icon.png"
+import Css from "/assets/img/css-icon.png"
+import Javascript from "/assets/img/javascript-icon.png"
 
-import Node from "../../assets/img/node-logo.png"
-import { Zoom ,Fade} from 'react-awesome-reveal'
+import Node from "/assets/img/node-logo.png"
+import { Fade} from 'react-awesome-reveal'
 
 
 const Hero = () => {
