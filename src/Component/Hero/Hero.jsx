@@ -16,7 +16,7 @@ const Hero = () => {
         <div className='hero-content'>
           <Fade duration={2000} direction='up' cascade='1.1' triggerOnce={true} >
             <h2>" Crafting   Experiences , Shaping Dreams " </h2>
-            <p>Your Frontend Journey Begins Here!s</p>
+            <p className='slogan'>Your Frontend Journey Begins Here!s</p>
             <p className='descriptions'>"Crafting Tomorrow's Digital Experiences: Where Code Converges with Creativity to Shape Seamless User Interfaces."</p>
           </Fade>
         </div>

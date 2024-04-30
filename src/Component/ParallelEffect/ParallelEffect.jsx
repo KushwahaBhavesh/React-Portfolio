@@ -15,7 +15,7 @@ const ParallelEffect = () => {
             evolving skills through my portfolio website. My journey in web development is marked by a
             commitment to
             delivering simple, user-friendly designs and gradually expanding my technical expertise.</p>
-          <button> <HashLink to="#contact" className="btn">Hire Me</HashLink></button>
+          <button> <HashLink to="#contact" className="btn">Contact</HashLink></button>
         </div>
       </Zoom>
     </section>

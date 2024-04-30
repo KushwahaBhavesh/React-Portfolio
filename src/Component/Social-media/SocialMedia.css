@@ -4,6 +4,7 @@
   top: 40%;
   left: 1.2%;
   z-index: 1 ;
+  margin-left: 5px;
 
 }
 .social-icons-content {
@@ -37,7 +38,7 @@
 
 @media (max-width: 1024px){
   .social-icons-container{
-    width: 3.8%;
+    width: 4%;
     left: 0;
     }
 }
@@ -52,8 +53,9 @@
 @media (max-width:487px) {
   .social-icons-container{
     width: 8%;
-    top:50%
+    top:50%;display: none;
   }
+
 
 
 }

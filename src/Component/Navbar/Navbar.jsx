@@ -33,7 +33,7 @@ const Navbar = () => {
           <li><HashLink className='menu-items' to='#skill'>Skills</HashLink></li>
           <li><HashLink className='menu-items' to='#experience'>Experience</HashLink></li>
           <li><HashLink className='menu-items' to='#project'>Project</HashLink></li>
-          <HashLink to='#contact'><button className='contact-btn'>Hire me</button></HashLink>
+          <HashLink to='#contact'><button className='contact-btn'>Contact</button></HashLink>
         </ul>
        
 

@@ -16,18 +16,19 @@ const ProjectCard = ({ projectData }) => {
 
   return <>
     <div className='Project-Card-container'>
-      {projectData.map((item,index) => (
+      {projectData.map((item, index) => (
         <Fade duration={1500} direction='up' delay={index * 100} triggerOnce={true} key={index}>
           <div className='project-info-content' key={item.name}>
             <div className='project-img'>
               <img src={item.image} alt={item.name} />
+              <div className="img-overlay">
+                <div className='project-name' onClick={() => setOpenPopup(true)}>
+                  <span onClick={() => onModelHandler(item)}>
+                    {item.name}
+                  </span>
+                </div>
+              </div>
             </div>
-            <div className='project-name' onClick={() => setOpenPopup(true)}>
-              <span onClick={() => onModelHandler(item)}>
-                {item.name}
-              </span>
-            </div>
-
           </div>
         </Fade>))}
 

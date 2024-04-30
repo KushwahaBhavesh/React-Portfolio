@@ -21,7 +21,7 @@ const ToggleMenu = ({ isOpen, toggleMenu }) => {
           <li><HashLink className='menu-items' to='#skill'><GiSkills /> Skills</HashLink></li>
           <li><HashLink className='menu-items' to='#experience'><MdWork /> Experience</HashLink></li>
           <li><HashLink className='menu-items' to='#project'><GoProjectRoadmap /> Project</HashLink></li>
-          <HashLink to='#contact'><button className='contact-btn'>Hire me</button></HashLink>
+          <HashLink to='#contact'><button className='contact-btn'>contact</button></HashLink>
         </ul>
         <h2 className='logo'>Kushwaha  Bhavesh</h2>
       </div>

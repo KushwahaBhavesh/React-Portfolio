@@ -240,14 +240,13 @@
     align-items: center;
   }
 
-
-
   .hero-content h2 {
     font-size: 2rem;
     text-align: center;
   }
   .hero-content .slogan {
     font-size: 1.2rem;
+    
   }
   .hero-content .descriptions {
     text-align: center;
