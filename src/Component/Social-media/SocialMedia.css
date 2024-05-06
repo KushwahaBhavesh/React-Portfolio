@@ -45,8 +45,7 @@
 
 @media (max-width:768px) {
   .social-icons-container{
-    width:6%;
-    top: 28%;
+    display: none;
   }
 }
 
