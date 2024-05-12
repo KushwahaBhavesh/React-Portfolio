@@ -27,28 +27,30 @@
   top: 25%;
 }
 
-.section-web .data-container h2 {
+ .data-container h2 {
   color: #fff;
   font-family: "Lemon", sans-serif;
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2rem;
+}
+.data-container > h2 > span{
+  font-size: 2.5rem;
+  font-family: "Lemon", sans-serif;
+  color: #d4ff00;
+  font-weight: 400;
 }
 
 .section-web .data-container p {
   text-align: center;
   font-size: 1.2rem;
-  font-family: "yatra one", sans-serif;
+  font-family: sans-serif;
   line-height: 1.4;
   color: #fff;
   margin: 20px;
   font-weight: 600;
 }
 
-.section-web span {
-  font-family: "Lemon", sans-serif;
-  color: #d4ff00;
-  font-weight: 400;
-}
+
 
 .data-container button {
   padding: 0.5rem 0.8rem;
